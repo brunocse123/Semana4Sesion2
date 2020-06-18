@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+      header {
+        color: green;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        background-image: url(https://estaticos.elperiodico.com/resources/jpg/1/6/gato-1502194230861.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;   /*Cover hace que la imagen este en toda la web*/     
+        margin: 0;
+        color: white;
+        font-size: 1.3rem;
+        font-family: 'Roboto Slab', serif;
+        
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      a {
+        color: inheerit;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        margin: 20px 0;
+        line-height: 1.5;
+      }
+
+      .wrapper {
+        width: 300px;
+        margin: auto;
+        border-width: 2px;
+        border-style: solid;
+        border-color: yellow;
+      }
+
+      header {
+        background-color: red;
+        background-repeat: no-repeat;
+
+        border: 2px solid yellow;
+        padding: 20px 20px 20px 20px;
+        /*position: relative;*/
+      }
+
+      header img{
+          /*position: relative;*/
+          position: absolute;
+          left: 5px;
+      }
+
+
+      /*Main*/
+      main {
+        padding: 20px;
+        background: green;
+        /*height: 300px;*/
+        /*overflow: hidden;*/
+        /*overflow-y: scroll;*/
+        overflow: auto;
+      }
+      /*Abaut*/
+      .about {
+        margin-bottom: 20px;
+      }
+
+      .us {
+        margin-bottom: 20px;
+      }
+
+      /*Footer*/
+
+      footer {
+        background-color: blueviolet;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <img style="width: 40px;" src="https://vignette.wikia.nocookie.net/mario/images/a/aa/Estrella_SM3DL.png/revision/latest/top-crop/width/360/height/450?cb=20120504200240&path-prefix=es" alt="">
+        <a href=""> LOGOS</a>
+        <nav>
+          <ul>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">5</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="about">
+          <h2>Sobre mi</h2>
+          <p>
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+            de las industrias desde el año 1500, cuando un impresor (N. del T.
+            persona que se dedica a la imprenta) desconocido usó una galería de
+            textos y los mezcló de tal manera que logró hacer un libro de textos
+            especimen.
+          </p>
+        </section>
+        <section class="us">
+          <h2>Nosotros</h2>
+          <p>
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+            de las industrias desde el año 1500, cuando un impresor (N. del T.
+            persona que se dedica a la imprenta) desconocido usó una galería de
+            textos y los mezcló de tal manera que logró hacer un libro de textos
+            especimen.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Nosotros</h2>
+          <p>
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+            de las industrias desde el año 1500, cuando un impresor (N. del T.
+            persona que se dedica a la imprenta) desconocido usó una galería de
+            textos y los mezcló de tal manera que logró hacer un libro de textos
+            especimen.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>
+          todos los derechos reservados
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

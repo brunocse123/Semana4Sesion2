@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+          padding: 30px;
+        width: 300px;
+        margin: auto;
+      }
+      .robotCara {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        /*position: fixed;*/
+      }
+
+      .robotOjoIzquierdo {
+        background-color: orange;
+        width: 50px;
+        height: 50px;
+        left: 20%;
+        top: 20%;        
+        position: absolute;
+
+      }
+
+      .robotOjoDerecho {
+        background-color: yellow;
+        width: 50px;
+        height: 50px;
+        left: 60%;
+        top: 20%;
+        position: absolute;
+      }
+
+      .robotBoca {
+        background-color: yellow;
+        width: 100px;
+        height: 35px;
+        left: 25%;
+        top: 65%;
+        position: absolute;
+      
+      }
+
+      .robotCuerpo{
+        background-color: red;
+        width: 300px;
+        height: 350px;
+        position: relative;
+        right: 50px;
+      }
+
+      .robotBrazoIzquierdo{
+        background-color: blueviolet;
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: 20%;
+        right: 80%; 
+      }
+
+      .robotBrazoDerecho{
+        background-color: blueviolet;
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: 20%;
+        left: 80%; 
+      }
+
+
+      .robotPiernaIzquierda{
+        background-color: black;
+        width: 40px;
+        height: 150px;
+        position: absolute;
+        top: 80%;
+        left: 75%; 
+      }
+
+      .robotPiernaDerecha{
+        background-color: gray;
+        width: 40px;
+        height: 150px;
+        position: absolute;
+        top: 80%;
+        right: 75%; 
+      }      
+
+
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="robotCara">
+        <div class="robotOjoIzquierdo"></div>
+        <div class="robotOjoDerecho"></div>
+        <div class="robotBoca"></div>
+      </div>
+      <div class="robotCuerpo">
+        <div class="robotBrazoIzquierdo"></div>
+        <div class="robotBrazoDerecho"></div>
+
+        <div class="robotPiernaIzquierda"></div>
+        <div class="robotPiernaDerecha"></div>
+      </div>
+
+    </main>
+  </body>
+</html>
